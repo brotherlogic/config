@@ -1,5 +1,5 @@
 #!/usr/bin/zsh
-for job in recordcollection recordgetter
+for job in recordcollection recordgetter recordcleaner
 do
     go install "github.com/brotherlogic/$job/${job}_cli@latest"
 done
