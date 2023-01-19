@@ -1,5 +1,5 @@
 sudo apt update
-sudo apt install -y emacs zsh golang ffmpeg cifs-utils prometheus apt-transport-https software-properties-common wget ssmtp mailutils cdparanoia protobuf-compiler unzip ansible-core
+sudo apt install -y emacs zsh golang ffmpeg cifs-utils prometheus apt-transport-https software-properties-common wget ssmtp mailutils cdparanoia protobuf-compiler unzip ansible
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "path+=('/home/simon/go/bin/')" >> ~/.zshrc
 
