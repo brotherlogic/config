@@ -1,5 +1,5 @@
 #!/usr/bin/zsh
-for job in recordcollection recordgetter logging gobuildslave buildserver recordcleaner recordfanout focus recordadder recordbudget bandcampserver cdprocessor adventserver githubcard tasklist queue
+for job in recordcollection recordgetter logging gobuildslave buildserver recordcleaner recordfanout focus recordadder recordbudget bandcampserver cdprocessor adventserver githubcard tasklist queue recordvalidator
 do
     go install "github.com/brotherlogic/$job/${job}_cli@latest"
 done
